@@ -1,0 +1,4 @@
+.users_form {
+  display: flex;
+  flex-wrap: nowrap;
+}

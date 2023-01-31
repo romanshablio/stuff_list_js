@@ -8,7 +8,11 @@ export default class Worker {
     this.post = post;
   }
 
-  getFIO() {
+  //   getFIO() {
+  //     return this.surname + " " + this.name + " " + this.lastname;
+  //   }
+
+  get fio() {
     return this.surname + " " + this.name + " " + this.lastname;
   }
 
